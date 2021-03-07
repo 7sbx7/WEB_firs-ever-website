@@ -1,0 +1,264 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 185px;
+}
+
+.header-style-1 {
+  font-size: 3.5rem;
+  font-family: "Californian FB";
+  font-weight: 700;
+  line-height: 1.8rem;
+  margin-bottom: 6rem;
+  margin-top: 7rem;
+}
+
+.header-style-2 {
+  font-size: 4.5rem;
+  font-family: "Californian FB";
+  font-weight: 700;
+  line-height: 1.8rem;
+  margin-bottom: 6rem;
+  margin-top: 11rem;
+}
+
+.nav {
+  background-color: white;
+  height: 80px;
+  opacity: 0.85;
+  position: relative;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 1px 3px 10px 3px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 1px 3px 10px 3px rgba(0, 0, 0, 0.44);
+  box-shadow: 1px 3px 10px 3px rgba(0, 0, 0, 0.44);
+}
+
+.header-style-3 {
+  font-size: 3.5rem;
+  font-family: "Californian FB";
+  font-weight: 700;
+  line-height: 3, 6rem;
+  margin-bottom: 4rem;
+  margin-top: 5rem;
+}
+
+.paragraph-style-1 {
+  font-family: "Gotham Rounded - Book";
+  font-weight: 300;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  color: #616161;
+  margin-bottom: 3rem;
+}
+
+.paragraph-style-2 {
+  font-family: "Gotham Rounded - Book";
+  font-weight: 300;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  color: #616161;
+  margin-bottom: 4.5rem;
+}
+
+.learn-more {
+  font-weight: 300;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  color: #616161;
+  margin-bottom: 5.5rem;
+}
+
+#main-caption {
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: California FB;
+  font-weight: 700;
+  letter-spacing: -0.058rem;
+  line-height: 4.2rem;
+  color: #000;
+  margin-bottom: 6.6rem;
+  margin-top: 5rem;
+}
+
+#secondary-caption {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: California FB;
+  font-weight: 700;
+  letter-spacing: 0.04rem;
+  color: #616161;
+  margin-bottom: 9rem;
+  margin-top: 1rem;
+}
+
+.jumpers {
+  width: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./mainImg.png");
+  background-size: cover;
+}
+
+.logo {
+  top: 5%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-img {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+
+.arrow2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 13px;
+}
+
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25px;
+}
+
+.main-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.nav-item-style {
+  color: #616161;
+  font-family: "Californian FB";
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 10.81px;
+  letter-spacing: 0.38px;
+  margin-left: 2.4rem;
+}
+
+.list-style {
+  text-align: center;
+  margin-top: 3rem;
+  list-style-type: none;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding-top: 1px;
+  }
+}
+
+.footer {
+  background-color: #fafafa;
+  width: 192rem;
+  height: 31rem;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.footer-parts {
+  margin-top: 2rem;
+}
+
+.copyrights {
+  text-align: center;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  padding-bottom: 5rem;
+  font-family: "Californian FB";
+}
+.footer-header {
+  color: #000000;
+  font-family: "Californian FB";
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 4.5rem;
+}
+.footer-paragraph {
+  padding-top: 2rem;
+  font-family: "Gotham Rounded Book";
+  line-height: 2.5rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 0.045rem;
+}
+
+.pad-left-35 {
+  padding-left: 3.5rem;
+}
+
+.pad-right-35 {
+  padding-right: 3.5rem;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.max-width-100 {
+  max-width: 100%;
+}
+
+.max-width-75 {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email-format {
+  color: #02748c;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-family: "Gotham Rounded Book";
+}
+.number-format {
+  color: #02748c;
+  font-size: 1.5rem;
+  font-family: "Gotham Rounded Book";
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 8px;
+  }
+  .pad-left-35 {
+    padding: 0 15px 0 15px;
+  }
+  .pad-right-35 {
+    padding: 0 15px 0 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 6px;
+  }
+}
